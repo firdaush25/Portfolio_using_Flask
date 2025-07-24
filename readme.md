@@ -1,5 +1,8 @@
 # 🚀 Firdaush's Portfolio
 
+## My Portfolio Link without Flask::-
+https://firdaushalamportfolio.netlify.app/ 
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Flask](https://img.shields.io/badge/Flask-WebApp-lightgrey)
 ![License](https://img.shields.io/badge/License-MIT-green)
