@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Web Scraper",
+        "description": "Scrapes real-time data from news sites.",
+        "link": "https://github.com/firdaush25/News-Headline-Scraper-CLI-Tool.git"
+    },
+    {
+        "title": "CSV Analyzer",
+        "description": "Interactive data dashboard using Pandas.",
+        "link": "https://github.com/firdaush25/firdaush25-Data-Analysis-on-Sales-Data-Using-Machine-Learning.git"
+    },
+    {
+        "title": "ELECTRA WAVE",
+        "image": "images/E.png",
+        "description": "Electronic gadget website built using HTML, CSS, JavaScript, SQLite, and Django.",
+        "link": "https://firdaush25.pythonanywhere.com/"
+    }
+]
