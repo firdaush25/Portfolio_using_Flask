@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRDAUSH Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+
+    <!-- Flask Static Assets -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
+    <script src="{{ url_for('static', filename='/js/style.js') }}" defer></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- nav section starts -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#home"><span>F</span>irdaush<span>&nbsp; A</span>lam</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">
+                            Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    <!-- nav section ends -->
+
+
+
+    <!-- main section start  -->
+    <main class="main">
+
+        <!-- introduction section starts -->
+        <div class="clearfix" id="home">
+            <img src="/static/images/profile.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+
+            <div class="leftsection">
+                Hi! My name is <span class="voilet">Firdaush Alam</span>
+                <div class="container" id="container-text">
+                    <h1><span class="auto-type"><span class="typed-text"></span></span></h1>
+                </div>
+                <div class="resume">
+                    <button class="abtme"><a href="#about">About me</a> </button>
+                    <button class="abtme"><a href="/static/resume/FIRDAUSH_ALAM_RESUME.pdf" download="">Resume</a>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+        <!-- introduction section ends -->
+
+
+
+
+
+        <!-- about section-->
+        <section id="about">
+            <div class="container mt-4 pt-4">
+                <h1 class="text-center"> <span>A</span>bout <span>M</span>e</h1>
+                <div class="row mt-4">
+
+                    <div class="about-me-text">
+                        <h4 id="text">
+                            Hello, I'm Firdaush Alam, a passionate and dedicated full-stack developer. I have a strong
+                            foundation in front-end and back-end technologies, and I thrive on solving complex problems
+                            and creating user-friendly solutions. With expertise in HTML, CSS, JavaScript, React,
+                            Django, Python, and more, I bring a holistic approach to every project. I believe in the
+                            power of collaboration and delivering exceptional results. Thank you for visiting my
+                            portfolio, and I look forward to the possibility of collaborating with you.
+                        </h4>
+                    </div>
+                </div>
+        </section>
+        <!-- about section ends here -->
+
+
+
+
+
+
+
+        <!-- Skill section Start -->
+        <div class="container-fluid py-5" id="skills">
+            <div class="container">
+                <h2 class="projects-section-header"> <span>M</span>y <span>S</span>kills</h2>
+
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="font-weight-bold">PYTHON</h6>
+                                <h6 class="font-weight-bold">60%</h6>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95"
+                                    aria-valuemin="0" aria-valuemax="100" id="python"></div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="font-weight-bold">HTML , CSS , JS</h6>
+                                <h6 class="font-weight-bold">60%</h6>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85"
+                                    aria-valuemin="0" aria-valuemax="100" id="html"></div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="font-weight-bold">DJANGO</h6>
+                                <h6 class="font-weight-bold">70%</h6>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90"
+                                    aria-valuemin="0" aria-valuemax="100" id="django"></div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="font-weight-bold">BOOTSTRAP</h6>
+                                <h6 class="font-weight-bold">70%</h6>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85"
+                                    aria-valuemin="0" aria-valuemax="100" id="bootstrap"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="font-weight-bold">REACT</h6>
+                                <h6 class="font-weight-bold">50%</h6>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90"
+                                    aria-valuemin="0" aria-valuemax="100" id="react"></div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="font-weight-bold">SQL</h6>
+                                <h6 class="font-weight-bold">60%</h6>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95"
+                                    aria-valuemin="0" aria-valuemax="100" id="sql"></div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="font-weight-bold">CHATGPT</h6>
+                                <h6 class="font-weight-bold">80%</h6>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85"
+                                    aria-valuemin="0" aria-valuemax="100" id="chatgpt"></div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="font-weight-bold">TAILWIND , MATERIAL UI</h6>
+                                <h6 class="font-weight-bold">50%</h6>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="85"
+                                    aria-valuemin="0" aria-valuemax="100" id="tailwind"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Skill section End -->
+
+
+
+
+
+        <!-- project section starts -->
+        <section id="projects" class="project-section" style="margin: 20px;">
+            <h2 class="projects-section-header"> <span>M</span>y <span>P</span>roject's</h2>
+            <div class="projects-grid">
+                <a href="https://firdaush25.pythonanywhere.com/" target="_blank" class="project project-tile">
+                    <img class="project-image" src="/static/images/E.png" alt="project" />
+                    <p class="project-title" style="font-size: 18px;">
+                        ELECTRA WAVE<br>[Electronic gadget website Build Using Html,CSS,JavaScript,Sqllite and Django
+                        Framework]
+                    </p>
+                </a>
+                <a href="https://github.com/firdaush25/News-Headline-Scraper-CLI-Tool.git" target="_blank"
+                    class="project project-tile">
+                    <img class="project-image" src="/static/images/5277951.jpg" alt="project" />
+                    <p class="project-title" style="font-size: 18px;">
+                        Web Scraping
+                    </p>
+                </a>
+                <a href="https://github.com/firdaush25/firdaush25-Data-Analysis-on-Sales-Data-Using-Machine-Learning.git"
+                    target="_blank" class="project project-tile">
+                    <img class="project-image" src="/static/images/1424906.jpg" alt="project" />
+                    <p class="project-title" style="font-size: 18px;">
+                        EDA On Sales Dataset Using Machine Learning
+                    </p>
+                </a>
+                <a href="https://github.com/firdaush25/User-Management-Rest-Api-using-Flask.git" target="_blank"
+                    class="project project-tile">
+                    <img class="project-image" src="/static/images/4142747.jpg" alt="project" />
+                    <p class="project-title" style="font-size: 18px;">
+                        User Management Rest API Using Flask
+                    </p>
+                </a>
+                <a href="https://github.com/firdaush25/EDA-on-titanic-dataset.git" target="_blank"
+                    class="project project-tile">
+                    <img class="project-image" src="/static/images/a.png" alt="project" />
+                    <p class="project-title" style="font-size: 18px;">
+                        EDA On Titanic Dataset Using Machine Learning
+                    </p>
+                </a>
+                <a href="https://github.com/firdaush25/Console-Based-To_Do-List-Application-.git" target="_blank"
+                    class="project project-tile">
+                    <img class="project-image" src="/static/images/8163-dark-code-wallpaper.jpg" alt="project" />
+                    <p class="project-title" style="font-size: 18px;">
+                        CLI Based To_Do List Application Using Python
+                    </p>
+                </a>
+                <!-- <a href="" target="_blank" class="project project-tile">
+                    <img class="project-image" src="/static/images/background.png" alt="project" />
+                    <p class="project-title">
+                        NOT UPDATED
+                    </p>
+                </a>
+                <a href="" target="_blank" class="project project-tile">
+                    <img class="project-image" src="./images/a.png" alt="project" />
+                    <p class="project-title">
+                        NOT UPDATED
+                    </p>
+                </a>
+                <a href="" target="_blank" class="project project-tile">
+                    <img class="project-image" src="./images/a.png" alt="project" />
+                    <p class="project-title">
+                        NOT UPDATED
+                    </p>
+                </a> -->
+
+            </div>
+        </section>
+        <!-- project section ends -->
+
+
+
+
+        <!-- contact section starts -->
+        <section id="contact">
+            <div class="container mt-3 contactContent">
+                <h2 class="projects-section-header"> <span>C</span>ontact<span> M</span>e</h2>
+
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                        <div
+                            style="max-width:100%;overflow:hidden;color:red;width:500px;height: 350px;border-radius: 20px;">
+                            <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                                <iframe style="height:100%;width:100%;border:0;" frameborder="0"
+                                    src="https://www.google.com/maps/embed/v1/place?q=Manyata+Embassy+Business+Park,+Outer+Ring+Rd,+Manayata+Tech+Park,+Nagavara,+Bengaluru,+Karnataka,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                                </iframe>
+                            </div>
+                            <!-- <a class="googlemaps-html" href="https://www.embed-map.com"
+                                id="get-data-forembedmap">https://www.embed-map.com</a> -->
+                            <style>
+                                #embedmap-canvas img {
+                                    max-width: none !important;
+                                    background: none !important;
+                                    font-size: inherit;
+                                    font-weight: inherit;
+                                }
+                            </style>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <!-- form fields -->
+                        <form>
+                            <input type="text" class="form-control form-control-lg" placeholder="Name" required>
+                            <input type="email" class="form-control mt-3" placeholder="Email" required>
+                            <input type="text" class="form-control mt-3" placeholder="Subject" required>
+                            <div class="mb-3 mt-3">
+                                <textarea class="form-control" rows="5" id="comment" name="text"
+                                    placeholder="Want to work with me? please describe the reason to contact with me !"
+                                    required></textarea>
+                            </div>
+                            <button type="button" class="btn btn-success mt-3" onclick="contact()">Contact Me</button>
+                            <div id="contactmessage">
+                                <h2></h2>
+                            </div>
+                            <!-- ✅ Jinja2 success message in contact section -->
+                            <div id="contactmessage">
+                                <h2>{% if success %}Your message has been sent successfully!{% endif %}</h2>
+                            </div>
+
+
+                        </form>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section> <br><br><br><br><br>
+        <!-- contact section ends -->
+
+
+
+
+    </main>
+    <!-- main section ends -->
+
+
+    <!-- section footer starts -->
+    <!-- section footer starts -->
+    <div class="footer">
+        <div class="left">
+            <h2>Copyright: <span>F</span>irdaush <span>A</span>lam</h2>
+        </div>
+        <div class="right">
+            <a aria-current="page" href="#home"> <span>B</span>ack to <span>T</span>op </a>
+
+        </div>
+    </div>
+    <!-- section footer ends here -->
+
+</body>
+
+</html>

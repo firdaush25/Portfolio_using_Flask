@@ -1,0 +1,476 @@
+.bg-body-tertiary {
+    background-color: beige !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* Makes sure it stays above other elements */
+    border-radius: 10px;
+}
+
+
+
+.nav-link {
+    margin-left: 50;
+}
+
+a {
+    font-weight: bold;
+}
+
+span {
+    color: red;
+}
+
+.nav-link {
+    font-weight bold !important;
+    color: blue !important;
+
+}
+
+
+.nav-link:hover {
+    font-size: medium;
+    font-weight: bold;
+    color: red !important;
+}
+
+
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+
+body {
+    font-family: Noto Serif;
+    color: white;
+    /* background-color: black; */
+    background-image: url('/static/images/modern-empty-business-corporate-office-meeting-room-is-ready-businesspeople-late-night.jpg');
+    /* Update path as needed */
+    background-size: cover;
+    /* Scales image to cover entire area */
+    background-repeat: no-repeat;
+    /* Prevents tiling */
+    background-position: center;
+    /* Centers the image */
+    background-attachment: fixed;
+
+}
+
+
+#navbar-nav {
+    margin-top: -2px;
+}
+
+.nav-item {
+    /* margin-right: 30px; */
+}
+
+.clearfix {
+    margin: 20px;
+    /* box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    background-color: aliceblue; */
+    /* padding: 2%; */
+    /* background-image: url("/static/images/1424906.jpg"); */
+}
+
+.clearfix>img {
+    border-radius: 50%;
+    width: 400px;
+}
+
+.clearfix>img:hover {
+    border-radius: 20px;
+}
+
+.container {
+    /* margin-left: -9px !important; */
+
+}
+
+.main {
+    margin-left: 10px;
+}
+
+
+.leftsection {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.container>h1 {
+    font-size: 50px;
+}
+
+.voilet {
+    color: navy;
+}
+
+.abtme {
+    border: 2px solid red;
+    border-radius: 10px;
+    /* height: 50px; */
+    /* width: 150px; */
+    box-shadow: rgba(0, 0, 0, 5.0);
+    border-block-color: blue;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.resume {
+    margin-top: 7%;
+}
+
+.abtme:hover {
+    background-color: thistle;
+    border: red 2px green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container-text {
+    margin-left: -9px !important;
+
+}
+
+/* @media maxwidth(<400px){
+    .main>img{
+        width: 200px;
+    }
+} */
+@media screen and (max-width: 400px) {
+    .clearfix>img {
+        width: 350px;
+        margin-left: -10px;
+    }
+
+    .leftsection {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 5%;
+    }
+
+    .container>h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .clearfix>img {
+        width: 300px;
+        margin-left: -10px;
+    }
+
+    .leftsection {
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 3%;
+    }
+
+    .container>h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .clearfix>img {
+        width: 250px;
+        margin-left: -10px;
+    }
+
+    .leftsection {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 3%;
+    }
+
+    .container>h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .clearfix>img {
+        width: 200px;
+        /* margin-left: -10px; */
+    }
+
+    .leftsection {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 3%;
+    }
+
+    .container>h1 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 228px) {
+    .clearfix>img {
+        width: 150px;
+        margin-left: 8px;
+    }
+
+    .leftsection {
+        font-size: 10px;
+        font-weight: bold;
+        margin-top: 3%;
+    }
+
+    .container>h1 {
+        font-size: 10px;
+    }
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .servicesIcon {
+    color: #008000;
+}
+
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section 2*/
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: #eceff1;
+}
+
+.projects-section-header {
+    max-width: 900px;
+    margin: 3rem auto 6rem auto;
+    border-bottom: 0 solid white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 38px;
+    box-shadow: 0 5px 20px hwb(0 71% 29%);
+    text-align: center;
+}
+
+@media (max-width: 28.75em) {
+    .projects-section-header {
+        font-size: 4rem;
+    }
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+@media (max-width: 30.625em) {
+    .projects-section {
+        padding: 6rem 1rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.project {
+    background: white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 28px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+    transition: all 2s, transform 0.5s, box_shadow 0.5s;
+    color: black;
+}
+
+.project:hover {
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
+    transform: scale(1.08);
+}
+
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 28px;
+    border-top-left-radius: 28px;
+}
+
+.project-title {
+    font-family: Noto Serif;
+    font-size: 2rem;
+    text-align: center;
+    /* padding: 2rem 0.5rem; */
+    color: black;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+
+
+/*===================== Progress Bar ====================*/
+
+.progress {
+    border-radius: 10px;
+    height: 20px;
+    background-color: lightskyblue;
+}
+
+.progress .progress-bar {
+    width: 0px;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+#python {
+    width: 60%;
+}
+
+#html {
+    width: 60%;
+}
+
+#django {
+    width: 70%;
+}
+
+#bootstrap {
+    width: 70%;
+}
+
+#react {
+    width: 50%;
+}
+
+#sql {
+    width: 60%;
+}
+
+#chatgpt {
+    width: 80%;
+}
+
+#tailwind {
+    width: 50%;
+}
+
+
+.about-me-text {
+    border-radius: 16px;
+    /* background-color: aliceblue; */
+    text-align: center;
+}
+
+ul {
+    list-style-type: disc;
+    /* Set the bullet style (circle, square, disc, etc.) */
+    margin: 20px;
+    /* Adjust the left margin to control the indentation */
+}
+
+ul>li {
+    margin: 5px;
+}
+
+#about {
+    border: 2px solid whitesmoke;
+    box-shadow: 25px beige;
+    border-radius: 40px;
+    /* background-color: aliceblue; */
+    padding-bottom: 5%;
+    margin: 2%;
+    margin-bottom: 0%;
+
+    /* box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+                0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                0 12.5px 10px rgba(0, 0, 0, 0.06),
+                0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                0 100px 80px rgba(0, 0, 0, 0.12); */
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    /* text-transform: uppercase; */
+    font-size: larger;
+    justify-content: space-between;
+    display: flex;
+}
+
+.left,
+.right {
+    margin-top: 5%;
+}
+
+.left {
+    padding-left: 2%;
+}
+
+.right {
+    padding-right: 2%;
+}
